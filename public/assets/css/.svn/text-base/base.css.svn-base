@@ -1,0 +1,133 @@
+/*******************************************************************************
+* BASE ELEMENTS
+*******************************************************************************/
+body {
+	background: #eee;
+	border-top: 5px solid #5a6351;
+	color: #999;
+	font: 14px Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color: #333;
+	font-weight: bold; 
+	letter-spacing: -1px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: #ccc;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+/*******************************************************************************
+* FORMS
+*******************************************************************************/
+a.button, button, input[type=submit], input[type=reset] {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: inset -1px -1px 1px #777;
+	-moz-box-shadow: inset -1px -1px 1px #777;
+	-webkit-box-shadow: inset -1px -1px 1px #777;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 7px 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+button, input[type=submit], input[type=reset], input[type=button] {
+	background-color: #ccc;
+	border: 1px solid #c1c1c1;
+	color: #333;
+	text-shadow: 0 1px 1px #eee;	
+}
+
+button:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background-color: #bbb;
+	cursor: pointer;
+}
+
+input[type=text], input[type=password], select, textarea {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 7px;
+}
+
+textarea {
+	width: 90%;
+}
+
+
+/*******************************************************************************
+* CONTENT
+*******************************************************************************/
+#content {
+	background: #fff;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 8px 8px 10px #ccc;
+	-moz-box-shadow: 8px 8px 10px #ccc;
+	-webkit-box-shadow: 8px 8px 10px #ccc;
+	margin: 0 auto 3em;
+	padding: 20px;
+}
+
+#content p {
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+#content a {
+	color: #331890;
+}
+
+#content a:hover {
+	color: #51005b;
+}
+
+
+/*******************************************************************************
+* FOOTER
+*******************************************************************************/
+#footer {
+	clear: both;
+	color: #aaa;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#footer a {
+	color: #777;
+}
+
+
+/*******************************************************************************
+* SPECIAL CLASSES
+*******************************************************************************/
+.error {
+	color: #a00;
+	margin: 0 0 1em;
+}
+
+.note {
+	background: #fee8d6;
+	color: #444;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	margin: 5px 0 0;
+	width: auto;
+}

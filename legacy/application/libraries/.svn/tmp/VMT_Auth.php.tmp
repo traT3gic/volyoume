@@ -1,0 +1,175 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * VMT
+ *
+ * A volunteer management system for religious organizations.
+ *
+ * @package     VMT
+ * @author      Guillermo A. Fisher <guillermoandraefisher@gmail.com>
+ * @copyright   Copyright (c) 2009 - 2010, Guillermo A. Fisher
+ * @since       Version 1.0
+ * @filesource
+ */
+
+// ------------------------------------------------------------------------
+
+/**
+ * VMT Authentication Library
+ *
+ * This class handles authentication.
+ *
+ * @package     VMT
+ * @subpackage  Libraries
+ * @category    Libraries
+ * @author      Guillermo A. Fisher <guillermoandraefisher@gmail.com>
+ */
+
+class VMT_Auth
+{
+
+	/**
+	 * Whether or not the user is allowed to see this page.
+	 * @access private
+	 * @var bool
+	 */
+	private $_allowed = true;
+
+	/**
+	 * The name of the controller responsible for authentication.
+	 * @access private
+	 * @var string
+	 */
+	private $_controller_name = 'account';
+
+	/**
+	 * The key to be used for authentication.
+	 * @access private
+	 * @var string
+	 */
+	private $_key = '_is_auth';
+
+	/**
+	 * An instance of the CodeIgniter super object.
+	 * @access private
+	 * @var object
+	 */
+	private $_ci;
+
+	/**
+	 * Constructor. Register the CI super object.
+	 * @access public
+	 * @return null
+	 */
+	public function __construct()
+	{
+		$this->_ci =& get_instance();
+	}
+	/**
+	 * Returns the name of the controller responsible for authentication.
+	 * @access public
+	 * @return string
+	 */
+	public function get_controller_name()
+	{
+		return $this->_controller_name;
+	}
+
+    /**
+     * Logs a member in.
+     * @access public
+     * @return object|false
+     */
+    public function login()
+    {
+    	if ($user = $this->_ci->session->userdata('auth')) {
+    		$this->_ci->session->set_userdata($this->_key, true);
+    		$this->_ci->session->unset_userdata('auth');
+			return $user;
+		}
+		return false;
+    }
+    
+    /**
+     * Logs a member out.
+     * @access public
+     * @return null
+     */
+	public function logout()
+	{
+		$this->_ci->session->sess_destroy();
+	}
+
+	/**
+	 * Forbid access to a page.
+	 * @access public
+	 * @return null
+	 */
+	public function forbid()
+	{
+		$this->_allowed = false;
+	}
+
+	/**
+	 * Allow access to a page.
+	 * @access public
+	 * @return null
+	 */
+	public function allow()
+	{
+		$this->_allowed = true;
+	}
+
+	/**
+	 * Whether or not the user is allowed.
+	 * @access public
+	 * @return bool
+	 */
+	public function is_allowed()
+	{
+		return $this->_allowed;
+	}
+
+	/**
+	 * Determine whether or not the member is logged in.
+	 * @access public
+	 * @return bool
+	 */
+	public function is_logged_in()
+	{
+		if ($logged_in = $this->_ci->session->userdata($this->_key)) {
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Determine whether or not the member is the active group's
+	 * administrator.
+	 * @access public
+	 * @return bool
+	 */
+	public function is_group_admin()
+	{
+<<<<<<< .mine
+		return ($this->_ci->session->userdata('role_id') >= 2);
+=======
+		return ($this->_ci->session->userdata('role_id') > 1);
+>>>>>>> .r96
+	}
+
+	/**
+	 * Determine whether or not the member is a super administrator.
+	 * @access public
+	 * @return bool
+	 */
+	public function is_super_admin()
+	{
+		return ($this->_ci->session->userdata('role_id') == 3);
+	}
+	
+	public function has_permission()
+	{
+		return true;
+	}
+
+}

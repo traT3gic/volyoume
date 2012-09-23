@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/vmt/!svn/ver/68/system/codeigniter/2.0.0/libraries/Cache/drivers
+END
+Cache_memcached.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/vmt/!svn/ver/68/system/codeigniter/2.0.0/libraries/Cache/drivers/Cache_memcached.php
+END
+Cache_dummy.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/vmt/!svn/ver/68/system/codeigniter/2.0.0/libraries/Cache/drivers/Cache_dummy.php
+END
+Cache_file.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/vmt/!svn/ver/68/system/codeigniter/2.0.0/libraries/Cache/drivers/Cache_file.php
+END
+Cache_apc.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/vmt/!svn/ver/68/system/codeigniter/2.0.0/libraries/Cache/drivers/Cache_apc.php
+END

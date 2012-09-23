@@ -1,0 +1,83 @@
+10
+
+dir
+134
+http://svn.griasolutionshq.com/vmt/system/codeigniter/2.0.0/database/drivers
+http://svn.griasolutionshq.com/vmt
+
+
+
+2011-02-13T03:35:51.389233Z
+68
+gria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cb287368-8403-4fe6-bb7f-7dd6d4717c74
+
+mssql
+dir
+
+sqlite
+dir
+
+oci8
+dir
+
+postgre
+dir
+
+mysql
+dir
+
+odbc
+dir
+
+index.html
+file
+
+
+
+
+2011-05-03T00:16:33.000000Z
+0227cfd904e99656279202032b98d4a7
+2011-02-13T03:35:51.389233Z
+68
+gria
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114
+
+mysqli
+dir
+

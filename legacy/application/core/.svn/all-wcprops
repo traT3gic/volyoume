@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/vmt/!svn/ver/131/system/application/core
+END
+VMT_Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/vmt/!svn/ver/135/system/application/core/VMT_Controller.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/vmt/!svn/ver/72/system/application/core/index.html
+END
+VMT_Model.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/vmt/!svn/ver/130/system/application/core/VMT_Model.php
+END
+VMT_Exceptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/vmt/!svn/ver/135/system/application/core/VMT_Exceptions.php
+END

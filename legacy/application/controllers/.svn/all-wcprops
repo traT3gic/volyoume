@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/vmt/!svn/ver/133/system/application/controllers
+END
+api.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/vmt/!svn/ver/101/system/application/controllers/api.php
+END
+requests.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/vmt/!svn/ver/95/system/application/controllers/requests.php
+END
+account.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/vmt/!svn/ver/130/system/application/controllers/account.php
+END
+groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/vmt/!svn/ver/135/system/application/controllers/groups.php
+END
+profile.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/vmt/!svn/ver/135/system/application/controllers/profile.php
+END
+tools.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/vmt/!svn/ver/101/system/application/controllers/tools.php
+END
+settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/vmt/!svn/ver/111/system/application/controllers/settings.php
+END
+users.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/vmt/!svn/ver/123/system/application/controllers/users.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/vmt/!svn/ver/9/system/application/controllers/index.html
+END
+search.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/vmt/!svn/ver/131/system/application/controllers/search.php
+END
+dashboard.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/vmt/!svn/ver/135/system/application/controllers/dashboard.php
+END
+messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/vmt/!svn/ver/135/system/application/controllers/messages.php
+END
+help.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/vmt/!svn/ver/70/system/application/controllers/help.php
+END
